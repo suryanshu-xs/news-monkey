@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site":"news-monkey",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

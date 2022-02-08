@@ -1,0 +1,24 @@
+.saved-articles-container{
+
+    padding: 0.5rem clamp(0.5rem, 3vw, 2.5rem);
+}
+.no-user-heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.85rem;
+    margin: 1rem 0rem;
+    color: rgb(39, 39, 39);
+    text-transform: capitalize;
+
+}
+.saved-articles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.login-button-container{
+    margin-top: 4rem;
+    display: grid;
+    place-items: center;
+}

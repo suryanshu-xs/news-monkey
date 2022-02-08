@@ -1,0 +1,154 @@
+.weather-main-container {
+  min-height: 140vh;
+  min-width: 98vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.weather-information-container {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+.name-region-temperature-condition {
+  color: white;
+  text-align: center;
+  margin: 1.5rem 0rem;
+}
+.temperature-condition-image {
+  width: 75px;
+  margin-top: 0.6rem;
+  margin-right: 0.85rem;
+}
+.name-region {
+  margin: 10px 0px;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.temperature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.temp-degree {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.temp {
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+.degree {
+  margin-left: 0.5rem;
+  margin-top: 1.25rem;
+  font-size: 1.8rem;
+}
+.condition {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+.last-updated {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.other-infos {
+  padding: 1rem 0rem;
+  max-width: 430px;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.loading-box {
+  height: 3px;
+}
+.other-infos span {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  margin: 0.2rem 0.85rem;
+  font-weight: 600;
+}
+.progressBars {
+  display: flex;
+  margin-bottom: -1.5rem;
+}
+
+.progress-bar {
+  margin: 1rem;
+  margin-top: 1.5rem;
+}
+.CircularProgressbar {
+  width: 80px !important;
+}
+.index-name {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.forecast-container {
+  color: white;
+}
+.forecast-day-container {
+  display: flex;
+  width: fit-content;
+  margin: 0rem auto;
+  max-width: 90%;
+  overflow: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(190, 190, 190, 0.685) rgba(0, 128, 0, 0);
+  padding-bottom: 0.5rem;
+}
+
+.forecast-day-div {
+  min-height: 160px;
+  min-width: 120px;
+  padding: 0.5rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(255, 255, 255, 0.123); */
+  transition: 0.2s;
+}
+.forecast-day-div:hover {
+  background-color: rgba(245, 245, 245, 0.205);
+}
+.activeForecastBox {
+  background-color: rgba(245, 245, 245, 0.205);
+}
+.forecast-day-date {
+  font-size: 0.9rem;
+}
+.forecast-day-icon {
+  width: 50px;
+}
+.highest-temp {
+  font-size: 1.5rem;
+}
+.lowest-temp {
+  margin-left: 0.6rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.forecast-day-condition {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  
+}
+.charts-container{
+  max-width: 800px;
+  
+  margin: 1rem auto;
+  padding-top: 1rem;
+}
